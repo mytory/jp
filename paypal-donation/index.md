@@ -1,5 +1,5 @@
 ---
-title: PayPalで後援する 
+title: PayPalで後援
 author: 녹풍(綠風, Windgreen)
 layout: page
 aktt_notify_twitter:
