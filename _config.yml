@@ -1,0 +1,11 @@
+url: http://jp.mytory.net/
+title: ウェブで話す
+description: >
+  ウェブ開発、PHP、CSS、jQuery、javascript、iPhone等
+timezone: "Asia/Seoul"
+paginate: 10
+paginate_path: "page/:num"
+
+email: "mail@mytory.net"
+twitter_username: "mytory"
+github_username: "mytory"
