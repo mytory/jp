@@ -1,0 +1,18 @@
+---
+layout: post
+title: ページが見つかりません
+permalink: /404.html
+---
+
+<p>
+  壊れたURLである可能性が最も高い。右上から閲覧します。
+</p>
+<p>
+  <code>/archives/数字/</code>形式のURLに入って来たら<code>/archives/数字</code>の形で最後の<code>/</code>を離して入ってみましょう。もちろん、今javascriptで自動的にリディレクティングをしていますが、うまくできないことがありますからね。
+</p>
+
+<script type="text/javascript">
+if(/\/archives\/[0-9]+\//.test(location.pathname)){
+  location.href = location.pathname.substr(0, location.pathname.length - 1);
+}
+</script>
